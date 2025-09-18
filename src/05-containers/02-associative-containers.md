@@ -208,7 +208,7 @@ L2 {
 }
 ```
 
-A `set` uses the same red-black tree data structure under the hood to determine quickly determine if an element exists inside a set. `set` has no concept of a key-value pair, so its `TreeNode` behind the scenes is somewhat simpler: rather than storing a `pair` of key and value, it directly stores the set element in the node. Otherwise, `set` and `map` work exactly the same: conceptually, you can think of a `set` being somewhat like a `map` without any values.
+A `set` uses the same red-black tree data structure under the hood to quickly determine if an element exists inside a set. `set` has no concept of a key-value pair, so its `TreeNode` behind the scenes is somewhat simpler: rather than storing a `pair` of key and value, it directly stores the set element in the node. Otherwise, `set` and `map` work exactly the same: conceptually, you can think of a `set` being somewhat like a `map` without any values.
 
 ## Unordered Containers
 
